@@ -1,9 +1,37 @@
-# React TypeScript Starter Pack
+# To-Do application
 
-To use this template click `Use this template`
+This project show simple application for manage personal tasks.
 
-### Available Scripts
+### Live preview
 
-`Deploy` - available to deploy your application to gh-pages, to deploy the project, change the second line of code in package.json, specifically the homepage value, from "." to the repository name
+Expirience the live website: [To-Do application](https://codemasterboom.github.io/To-Do-App/)
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+### Technologies Used
+
+#### Core
+  - React
+  - TypeScript
+  - SCSS
+
+#### Development & Deployment
+  - Vite
+  - ESLint
+
+### Set up project loclly
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/codemasterboom/To-Do-App.git
+   cd To-Do-App
+   ```
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Run the project locally:
+   ```
+   npm start
+   ```
+
+### Features
+  - **Storing data**: All info about tasks saved to localstorage in browser. So, every user, have own list of tasks.
